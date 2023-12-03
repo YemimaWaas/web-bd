@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* button */
+.btn-danger {
+    background-color: #0c356a;
+    border-radius: 10px;
+    border-color: black;
+    padding: 10px 45px;
+    color: white;
+}
+
+.btn-outline-danger {
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: black;
+    padding: 10px 45px;
+    color: blue;
+}
+
+/* navbar */
+.navbar {
+    background-color: white;
+}
+
+/* Ganti background-color pada semua menu navbar menjadi putih */
+.navbar-nav .nav-item .nav-link {
+    background-color: white;
+    color: black; /* Warna teks pada menu */
+}
+
+/* Ganti background-color pada submenu menjadi putih dan atur opasitas ke 1 */
+.submenu {
+    background-color: white; /* Ganti warna latar belakang submenu menjadi putih */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    list-style: none;
+    padding: 55px;
+    border-radius: 10px;
+    opacity: 1; /* Set opasitas ke 1 */
+}
+
+User .navbar {
+    background-color: white;
+}
+.navbar-nav .nav-link {
+    color: black;
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    list-style: none;
+    padding: 15px; /* Jarak dari pinggir submenu */
+    border-radius: 10px;
+    margin-top: 1px; /* Jarak dari menu induk */
+}
+
+.nav-item:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    display: block;
+}
+
+.nav-item:hover .submenu {
+    display: block;
+}
+
+.nav-item .nav-link {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.scroll-nav-active {
+    background-color: white;
+    border-bottom: 1px solid #0c356a;
+}
+
+.text-nav-active {
+    color: black;
+}
+
+.navbar-nav .nav-item:nth-child(2):hover {
+    background-color: transparent; /* Warna latar belakang saat dihover */
+    color: black; /* Warna teks saat dihover */
+}
+
+/* Warna latar belakang Tempat Magang saat dihover */
+.navbar-nav .nav-item:nth-child(3):hover {
+    background-color: transparent; /* Warna latar belakang saat dihover */
+    color: black; /* Warna teks saat dihover */
+}
+
+/* body */
+/* 3.19 Dropdown */
+.dropdown-item.has-icon i {
+    margin-top: -1px;
+    font-size: 13px;
+}
+
+.dropdown-menu {
+    box-shadow: 0 10px 40px 0 rgba(51, 73, 94, 0.15);
+    border: none;
+    width: 200px;
+}
+.dropdown-menu.show {
+    display: block !important;
+}
+.dropdown-menu a {
+    font-size: 13px;
+}
+.dropdown-menu .dropdown-title {
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: #191d21 !important;
+    padding: 10px 20px;
+    line-height: 20px;
+    color: #98a6ad;
+}
+.dropdown-menu.dropdown-menu-sm a {
+    font-size: 14px;
+    letter-spacing: normal;
+    padding: 10px 20px;
+    color: #6c757d;
+}
+
+a.dropdown-item {
+    padding: 10px 20px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+a.dropdown-item:focus,
+a.dropdown-item:active,
+a.dropdown-item.active {
+    background-color: #6777ef;
+    color: #fff !important;
+}
+
+.dropdown-divider {
+    border-top-color: #f9f9f9;
+}
+
+.dropdown-list {
+    width: 350px;
+    padding: 0;
+}
+.dropdown-list .dropdown-item {
+    display: inline-block;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 13px;
+    border-bottom: 1px solid #f9f9f9;
+}
+.dropdown-list .dropdown-item.dropdown-item-header:hover {
+    background-color: transparent;
+}
+.dropdown-list .dropdown-item .time {
+    margin-top: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+.dropdown-list .dropdown-item .dropdown-item-avatar {
+    float: left;
+    width: 40px;
+    text-align: right;
+    position: relative;
+}
+.dropdown-list .dropdown-item .dropdown-item-avatar img {
+    width: 100%;
+}
+.dropdown-list .dropdown-item .dropdown-item-avatar .is-online {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.dropdown-list .dropdown-item .dropdown-item-desc {
+    line-height: 24px;
+    white-space: normal;
+    color: #34395e;
+    margin-left: 60px;
+}
+.dropdown-list .dropdown-item .dropdown-item-desc b {
+    font-weight: 600;
+    color: #666;
+}
+.dropdown-list .dropdown-item .dropdown-item-desc p {
+    margin-bottom: 0;
+}
+.dropdown-list .dropdown-item:focus {
+    background-color: #6777ef;
+}
+.dropdown-list .dropdown-item:focus .dropdown-item-desc {
+    color: #fff !important;
+}
+.dropdown-list .dropdown-item:focus .dropdown-item-desc b {
+    color: #fff !important;
+}
+.dropdown-list .dropdown-item.dropdown-item-unread:active .dropdown-item-desc {
+    color: #6c757d;
+}
+.dropdown-list
+    .dropdown-item.dropdown-item-unread:active
+    .dropdown-item-desc
+    b {
+    color: #6c757d;
+}
+.dropdown-list .dropdown-item:active .dropdown-item-desc {
+    color: #fff;
+}
+.dropdown-list .dropdown-item:active .dropdown-item-desc b {
+    color: #fff;
+}
+.dropdown-list .dropdown-item.dropdown-item-unread {
+    background-color: #fbfbfb;
+    border-bottom-color: #f2f2f2;
+}
+.dropdown-list .dropdown-item.dropdown-item-unread:focus .dropdown-item-desc {
+    color: #6c757d !important;
+}
+.dropdown-list .dropdown-item.dropdown-item-unread:focus .dropdown-item-desc b {
+    color: #6c757d !important;
+}
+
+.berita-tittle {
+    margin-top: 100px;
+}

@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* button */
+.btn-danger {
+    background-color: #0c356a;
+    border-radius: 10px;
+    border-color: black;
+    padding: 10px 45px;
+    color: white;
+}
+
+.btn-outline-danger {
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: black;
+    padding: 10px 45px;
+    color: blue;
+}
+
+/* navbar */
+.navbar {
+    background-color: white;
+}
+
+/* Ganti background-color pada semua menu navbar menjadi putih */
+.navbar-nav .nav-item .nav-link {
+    background-color: white;
+    color: black; /* Warna teks pada menu */
+}
+
+/* Ganti background-color pada submenu menjadi putih dan atur opasitas ke 1 */
+.submenu {
+    background-color: white; /* Ganti warna latar belakang submenu menjadi putih */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    list-style: none;
+    padding: 55px;
+    border-radius: 10px;
+    opacity: 1; /* Set opasitas ke 1 */
+}
+
+User .navbar {
+    background-color: white;
+}
+.navbar-nav .nav-link {
+    color: black;
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    list-style: none;
+    padding: 15px; /* Jarak dari pinggir submenu */
+    border-radius: 10px;
+    margin-top: 1px; /* Jarak dari menu induk */
+}
+
+.nav-item:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    display: block;
+}
+
+.nav-item:hover .submenu {
+    display: block;
+}
+
+.nav-item .nav-link {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.scroll-nav-active {
+    background-color: white;
+    /* border-bottom: 1px solid #0c356a; */
+    box-shadow: 1px 1px 11px -1px rgba(1, 1, 1, 0.08);
+}
+
+.text-nav-active {
+    color: black;
+}
+
+.navbar-nav .nav-item:nth-child(2):hover {
+    background-color: white; /* Warna latar belakang saat dihover */
+    color: black; /* Warna teks saat dihover */
+}
+
+/* Warna latar belakang Tempat Magang saat dihover */
+.navbar-nav .nav-item:nth-child(3):hover {
+    background-color: white; /* Warna latar belakang saat dihover */
+    color: black; /* Warna teks saat dihover */
+}
+/* hero */
+#hero {
+    background-image: url("../images/polibest.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    margin-top: 70px;
+    position: relative;
+    z-index: 1;
+    margin-top: 90px;
+}
+
+.hero-title {
+    padding-top: 100px;
+}
+
+.hero-text {
+    font-size: 55px;
+    font-weight: 600;
+}
+
+/* responsif layar kecil */
+@media screen and (min-widht: 450px) {
+    .hero-text {
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .hero-text {
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+
+/* video */
+#video {
+    background-image: url("../images/video.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+/* foto */
+/* paralax background */
+.section-foto {
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stripe-hitam {
+    height: 5px;
+    width: 40px;
+    background-color: black;
+}

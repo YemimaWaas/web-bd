@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* hero */
+#alur {
+    background-image: url("../images/alur2.png");
+    background-repeat: no-repeat;
+    background-size: 1200;
+    background-position: center;
+    height: 600px;
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.alur-title {
+    padding-top: 30px;
+}
+
+/* .bg-text { */
+/* margin-top: 180px; */
+/* } */
+
+/* responsif layar kecil */
+@media screen and (min-widht: 450px) {
+    .bg-text {
+        font-size: 35px;
+        font-weight: 600;
+    }
+}

@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('dashboard');
 });
 
 Route::middleware([
@@ -26,3 +26,13 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+
+
+Route::get('/info-magang', function () {
+    return view('info-magang');
+})->name('info-magang');
+
+Route::get('/alur', function () {
+    return view('alur');
+})->name('alur');

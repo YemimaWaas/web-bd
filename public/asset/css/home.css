@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+#hero {
+    text-align: center;
+}
+
+#hero img {
+    display: inline-block; /* Membuat gambar menjadi elemen inline-block */
+    margin: 0 auto;
+}
+header {
+    background-color: #053b50;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-left-2 .circle {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    left: 29px;
+}
+
+.header-left img {
+    max-width: 60px; /* Sesuaikan dengan ukuran gambar yang Anda gunakan */
+    position: relative;
+    left: 5px;
+    margin-top: 4px;
+}
+
+.header-right-2 img {
+    max-width: 140px;
+    position: relative;
+    left: 20px;
+}
+
+.header-right p {
+    position: relative;
+    left: 250px;
+}
+
+.header-left-2 h4,
+p {
+    position: relative;
+    right: 150px;
+}
+
+section.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.flex-item1 {
+    flex: 1;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    margin: 0 10px;
+    text-align: center;
+    background-color: #176b87;
+}
+
+.flex-item2 {
+    flex: 1;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    margin: 0 10px;
+    text-align: center;
+    background-color: #176b87;
+}
+
+.flex-item3 {
+    flex: 1;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    margin: 0 10px;
+    text-align: center;
+    background-color: #176b87;
+}
+
+.flex-item1 img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.flex-item2 img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.flex-item3 img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.flex-item1 h2,
+.flex-item2 h2,
+.flex-item3 h2 {
+    color: #ccc;
+}
+
+section#circle-frame {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+    overflow: auto;
+}
+
+.home-footer {
+    top: 64 0px;
+    left: 0px;
+    width: 1600px;
+    height: 234px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(5, 59, 80, 1);
+}
+.home-text06 {
+    top: 88px;
+    left: 276px;
+    color: rgba(255, 255, 255, 1);
+    width: 108px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.home-text08 {
+    top: 130px;
+    left: 276px;
+    color: rgba(255, 255, 255, 1);
+    width: 249px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: underline;
+}
+.home-text10 {
+    top: 22px;
+    left: 276px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.home-text14 {
+    top: 47px;
+    left: 276px;
+    color: rgba(255, 255, 255, 1);
+    width: 249px;
+    height: auto;
+    position: absolute;
+    font-size: 10px;
+    font-style: Medium;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.home-maps {
+    top: 22px;
+    left: 36px;
+    width: 186px;
+    height: 130px;
+    position: absolute;
+}
+.home-location {
+    top: 18px;
+    left: 245px;
+    width: 20px;
+    height: 29px;
+    position: absolute;
+}
+.home-whatsapp {
+    top: 88px;
+    left: 246px;
+    width: 18px;
+    height: 19px;
+    position: absolute;
+}
+.home-email {
+    top: 130px;
+    left: 244px;
+    width: 23px;
+    height: 19px;
+    position: absolute;
+}
+.home-sosmed {
+    top: 18px;
+    left: 1097px;
+    width: 186px;
+    height: 39px;
+    position: absolute;
+}
+
+footer {
+    background-color: #176b87;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

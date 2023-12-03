@@ -1,0 +1,379 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    background-color: #053b50;
+}
+
+.logoPolibest {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 32px;
+    top: 5px;
+}
+
+.logoBD {
+    position: absolute;
+    width: 70px;
+    height: 60px;
+    left: 1270px;
+    top: 6px;
+}
+
+.navBD {
+    position: absolute;
+    width: 271px;
+    height: 24px;
+    left: 108px;
+    top: 11px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+}
+
+.navPBS {
+    position: absolute;
+    width: 191px;
+    height: 18px;
+    left: 108px;
+    top: 42px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+}
+
+.navTGL {
+    position: absolute;
+    width: 150px;
+    height: 15px;
+    left: 1128px;
+    top: 28px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #fffcfc;
+}
+
+.Gedungkampus {
+    position: absolute;
+    width: 836px;
+    height: 385px;
+    left: 0px;
+    top: 70px;
+
+    border-radius: 0px 0px 20px 0px;
+}
+
+.visi {
+    position: absolute;
+    width: 783px;
+    height: 122px;
+    left: 50px;
+    top: 490px;
+
+    border-radius: 20px;
+}
+
+.lihatPROFIL {
+    position: absolute;
+    width: 313px;
+    height: 55px;
+    left: 300px;
+    top: 590px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #00f0ff;
+}
+
+.selamatdatang {
+    position: absolute;
+    width: 212px;
+    height: 29px;
+    left: 862px;
+    top: 128px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    color: #053b50;
+}
+
+.program {
+    position: absolute;
+    width: 406px;
+    height: 36px;
+    left: 862px;
+    top: 170px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #053b50;
+}
+
+.boxlogin {
+    position: absolute;
+    width: 370px;
+    height: 306px;
+    left: 910px;
+    top: 250px;
+
+    background: #f9f9f9;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+h1 {
+    position: absolute;
+    width: 108.02px;
+    height: 32.62px;
+    left: 1065px;
+    top: 260px;
+
+    font-family: "Fredoka One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: bold;
+
+    color: #053b50;
+}
+
+.labelnim {
+    position: absolute;
+    width: 80px;
+    height: 26.98px;
+    left: 950px;
+    top: 320px;
+
+    font-family: "Inria Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.labelpw {
+    position: absolute;
+    width: 80px;
+    height: 25.81px;
+    left: 950px;
+    top: 380px;
+
+    font-family: "Inria Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.TEXTFIELDnim {
+    position: absolute;
+    width: 400px;
+    height: 33.3px;
+    left: 950px;
+    top: 345px;
+
+    border-radius: 10px;
+}
+
+.TEXTFIELDpw {
+    position: absolute;
+    left: 950px;
+    top: 405px;
+
+    border-radius: 10px;
+}
+
+button {
+    position: absolute;
+    width: 280px;
+    height: 33.3px;
+    left: 960px;
+    top: 450.8px;
+
+    background: #053b50;
+
+    font-family: "Fredoka One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #ffffff;
+}
+
+hr {
+    position: absolute;
+    width: 305px;
+    height: 0px;
+    left: 950px;
+    top: 505.17px;
+
+    border: 1px solid #b0b0b0;
+}
+
+.footer {
+    background-color: #053b50;
+    box-sizing: border-box;
+    width: 100%;
+    height: 160px;
+    text-align: left;
+    padding: 30px 30px 30px 30px;
+    margin-top: 650px;
+}
+
+.MAP img {
+    width: 160px;
+    height: 105px;
+    left: 36px;
+    top: 812px;
+}
+
+.iconlokasi {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 215px;
+    top: 674px;
+}
+
+.iconwa {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 220px;
+    top: 725px;
+}
+
+.iconemail {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 220px;
+    top: 770px;
+}
+
+h2 {
+    position: absolute;
+    left: 255px;
+    top: 670px;
+
+    font-family: "Inria Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+
+    color: #ffffff;
+}
+
+h3 {
+    position: absolute;
+    left: 255px;
+    top: 690px;
+
+    font-family: "Inria Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+
+    color: #ffffff;
+}
+
+h4 {
+    position: absolute;
+    left: 255px;
+    top: 725px;
+
+    font-family: "Inria Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+
+    color: #ffffff;
+}
+
+h5 {
+    position: absolute;
+    left: 255px;
+    top: 770px;
+
+    font-family: "Inria Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+
+    color: #ffffff;
+}
+
+.footer2 {
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    left: 0px;
+    top: 810px;
+
+    background: #176b87;
+}
+
+.footer2 i {
+    position: absolute;
+    left: 500px;
+    top: 5px;
+
+    font-family: "Inria Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+
+    color: #ffffff;
+}
+
+.footer2 i {
+    font-style: italic;
+}
