@@ -103,7 +103,7 @@ User .navbar {
 }
 /* hero */
 #hero {
-    background-image: url("../images/polibest.png");
+    background-image: url("../images/bd1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -119,8 +119,8 @@ User .navbar {
 }
 
 .hero-text {
-    font-size: 55px;
-    font-weight: 600;
+    font-size: 70px;
+    font-weight: 700;
 }
 
 /* responsif layar kecil */

@@ -1,186 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500&display=swap");
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    overflow: auto;
+    font-family: "Poppins", sans-serif;
 }
 
-header {
-    background-color: #053b50;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-}
-
-.header-left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.circle {
-    width: 70px;
-    height: 70px;
-    background-color: #fff;
-    border-radius: 50%;
-    position: relative;
-    left: 29px;
-}
-
-.header-left img {
-    max-width: 60px; /* Sesuaikan dengan ukuran gambar yang Anda gunakan */
-    position: relative;
-    left: 5px;
-    margin-top: 4px;
-}
-
-.header-right-2 img {
-    max-width: 140px;
-    position: relative;
-    left: 20px;
-}
-
-.header-right p {
-    position: relative;
-    left: 250px;
-}
-
-.header-left-2 h3,
-p {
-    position: relative;
-    right: 183px;
-}
-
-#hero {
-    background-image: url("../images/logo2.png");
+/* hero */
+#bd {
+    background-image: url("../images/alur2.png");
     background-repeat: no-repeat;
-    background-size: 300px;
+    background-size: 1200;
     background-position: center;
-    height: 300px;
-    width: 400px;
-    margin: auto;
+    height: 600px;
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
 }
 
-.home-footer {
-    top: 64 0px;
-    left: 0px;
-    width: 1600px;
-    height: 234px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 1;
-    background-color: rgba(5, 59, 80, 1);
-}
-.home-text06 {
-    top: 88px;
-    left: 276px;
-    color: rgba(255, 255, 255, 1);
-    width: 108px;
-    height: auto;
-    position: absolute;
-    font-size: 14px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-}
-.home-text08 {
-    top: 130px;
-    left: 276px;
-    color: rgba(255, 255, 255, 1);
-    width: 249px;
-    height: auto;
-    position: absolute;
-    font-size: 14px;
-    font-style: Bold;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: underline;
-}
-.home-text10 {
-    top: 22px;
-    left: 276px;
-    color: rgba(255, 255, 255, 1);
-    height: auto;
-    position: absolute;
-    font-size: 18px;
-    font-style: Bold;
-    text-align: center;
-    font-family: Inter;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-}
-.home-text14 {
-    top: 47px;
-    left: 276px;
-    color: rgba(255, 255, 255, 1);
-    width: 249px;
-    height: auto;
-    position: absolute;
-    font-size: 10px;
-    font-style: Medium;
-    text-align: left;
-    font-family: Inter;
-    font-weight: 500;
-    line-height: normal;
-    font-stretch: normal;
-    text-decoration: none;
-}
-.home-maps {
-    top: 22px;
-    left: 36px;
-    width: 186px;
-    height: 130px;
-    position: absolute;
-}
-.home-location {
-    top: 18px;
-    left: 245px;
-    width: 20px;
-    height: 29px;
-    position: absolute;
-}
-.home-whatsapp {
-    top: 88px;
-    left: 246px;
-    width: 18px;
-    height: 19px;
-    position: absolute;
-}
-.home-email {
-    top: 130px;
-    left: 244px;
-    width: 23px;
-    height: 19px;
-    position: absolute;
-}
-.home-sosmed {
-    top: 18px;
-    left: 1097px;
-    width: 186px;
-    height: 39px;
-    position: absolute;
+.alur-title {
+    padding-top: 30px;
 }
 
-footer {
-    background-color: #176b87;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+/* .bg-text { */
+/* margin-top: 180px; */
+/* } */
+
+/* responsif layar kecil */
+@media screen and (min-widht: 450px) {
+    .bg-text {
+        font-size: 35px;
+        font-weight: 600;
+    }
 }

@@ -8,15 +8,13 @@
                             <h5 class="fw-bold mb-3">Navigasi</h5>
                             <div class="d-flex">
                                 <ul class="nav flex-column me-5">
-                                    <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-muted">Profil</a></li>
-                                    <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-muted">Berita</a></li>
-                                    <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-muted">Gallery</a></li>
-                                    <li class="nav-item mb-2"><a href="" class="nav-link p-0 text-muted">Kegiatan</a></li>
+                                    <li class="nav-item mb-2"><a href="{{route('tentang-bd')}}" class="nav-link p-0 text-muted">Profil</a></li>
+                                    <li class="nav-item mb-2"><a href="{{route('berita')}}" class="nav-link p-0 text-muted">Berita</a></li>
+                                    <li class="nav-item mb-2"><a href="{{route('gallery')}}" class="nav-link p-0 text-muted">Gallery</a></li>
                                 </ul>
                                 <ul class="nav flex-column">
-                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Prestasi</a></li>
-                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tempat Magang</a></li>
-                                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Kontak</a></li>
+                                    <li class="nav-item mb-2"><a href="{{route('prestasi')}}" class="nav-link p-0 text-muted">Prestasi</a></li>
+                                    <li class="nav-item mb-2"><a href="{{route('info.magang')}}" class="nav-link p-0 text-muted">Tempat Magang</a></li>
                                 </ul>
                             </div>
                         </div>

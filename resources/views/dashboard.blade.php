@@ -21,7 +21,7 @@
 {{-- hero --}}
 
         <section id="hero" class="bx-0" >
-            <div class ="container text-center text-light">
+            <div class ="container text-center text-lights">
                 <div class="hero-title">
                     <div class="hero-text"> Selamat Datang <br> Di Website Prodi Bisnis Digital</div>
                     <h3>"Breakthrough Innovation"</h3>
@@ -72,7 +72,7 @@
                 </div>
 
                 <div class="footer-berita text-center">
-                    <a href="" class="btn btn-outline-danger">Berita Lainnya</a>
+                    <a href="{{route('berita')}}" class="btn btn-outline-danger">Berita Lainnya</a>
                 </div>
 
             </div>
@@ -96,7 +96,7 @@
                         <h5 class="fw-bold text-black">Foto Kegiatan</h5>
                     </div>
                     <div>
-                        <a href="" class="btn btn-outline-dark">Foto Lainnya</a>
+                        <a href="{{route('gallery')}}" class="btn btn-outline-dark">Foto Lainnya</a>
                     </div>
                 </div>
                 <div class="row">

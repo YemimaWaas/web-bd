@@ -36,11 +36,9 @@
                                 Profil
                             </a>
                             <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Tentang Bisnis Digital </a>
-                                <a class="dropdown-item" href="#">Profil Dosen</a>
-                                <a class="dropdown-item" href="#">Profil Lulusan</a>
-                                <a class="dropdown-item" href="#">Organisasi</a>
-                                <a class="dropdown-item" href="#">Prestasi</a>
+                                <a class="dropdown-item" href="{{route('tentang-bd')}}">Tentang Bisnis Digital </a>
+                                <a class="dropdown-item" href="{{route('profil-dosen')}}">Profil Dosen</a>
+                                <a class="dropdown-item" href="{{route('prestasi')}}">Prestasi</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -48,18 +46,15 @@
                                 Tempat Magang
                             </a>
                             <div class="dropdown-menu submenu" aria-labelledby="navbarDropdown2">
-                                <a class="dropdown-item" href="{{route('info-magang')}}">Info Tempat Magang</a>
+                                <a class="dropdown-item" href="{{route('info.magang')}}">Info Tempat Magang</a>
                                 <a class="dropdown-item" href="{{route('alur')}}">Alur Pendaftaran</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Berita</a>
+                            <a class="nav-link active" href="{{route('berita')}}">Berita</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#">Kontak</a>
+                            <a class="nav-link active" href="{{route('gallery')}}">Gallery</a>
                         </li>
                     </ul>
                     <div class="d-flex">

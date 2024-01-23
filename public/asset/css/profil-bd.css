@@ -1,0 +1,14 @@
+#bg {
+    background-image: url("../images/bd.png");
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: top;
+    height: 500px;
+    margin-top: 70px;
+    position: relative;
+    z-index: 1;
+    margin-top: 90px;
+}
+.bg-title {
+    padding-top: 300px;
+}
